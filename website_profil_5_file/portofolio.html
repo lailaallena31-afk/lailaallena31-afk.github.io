@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profil Saya | Keahlian</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family: poppins;
+        background: #f4f7fb;
+        color: hwb(38 86% 0%);
+        line-height: 1.6;
+      }
+      header {
+        background: #2d6354;
+        color:hwb(38 86% 0%);
+        padding: 28px 8%;
+        text-align: center;
+      }
+      nav {
+        background: hwb(38 86% 0%);
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 8px;
+        padding: 12px;
+      }
+      nav a {
+        color:#2d6354;
+        text-decoration: none;
+        padding: 9px 14px;
+        border-radius: 6px;
+      }
+      nav a:hover,
+      nav a.active {
+        background: hwb(0 97% 3%);
+      }
+      main {
+        max-width: 900px;
+        margin: 32px auto;
+        padding: 0 20px;
+      }
+      .card {
+        background:#2d6354;
+        padding: 28px;
+        border-radius: 14px;
+        box-shadow: 0 5px 18px #1d355710;
+        margin-bottom: 20px;
+      }
+      h1,
+      h2 {
+        margin-top: 0;
+      }
+      .projects {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 16px;
+      }
+      .project {
+        border: 1px solid hwb(0 97% 3%);
+        padding: 20px;
+        border-radius: 10px;
+        background:#2d6354;
+      }
+      .projects {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 16px;
+      }
+      .project {
+        border: 1px solid #dce4f2;
+        padding: 20px;
+        border-radius: 10px;
+        background:#2d6354;
+      }
+      .tag {
+        display: inline-block;
+        background:hwb(38 86% 0%);
+        color: #2d6354;
+        padding: 4px 9px;
+        border-radius: 20px;
+        font-size: 13px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Portofolio</h1>
+      <p>Beberapa contoh proyek dan kegiatan saya</p>
+    </header>
+    
+    <nav>
+      <a href="index.html">Beranda</a><a href="tentang.html">Tentang</a
+      ><a href="keahlian.html">Keahlian</a
+      ><a class="active" href="portofolio.html">Portofolio</a
+      ><a href="kontak.html">Kontak</a>
+    </nav>
+    
+    <main>
+      <section class="card">
+        <div class="projects">
+
+          <article class="project">
+          <span class="tag">Desain logo</span>
+          <img src="Blue Bloom.png" width="150" height="150" >
+          </article>
+
+          <article class="project">
+          <span class="tag">Desain poster</span>
+          <img src="poster.jpeg" width="150" height="150" >
+          </article>
+
+          <article class="project">
+            <span class="tag">Desain katalog</span>
+           <img src="katalog produk.jpeg" width="150" height="150" >
+          </article>
+
+            </div>
+      </section>
+    </main>
+ <main>
+      <section class="card">
+        <div class="projects">
+           <article class="project">
+           <span class="tag">Desain id card</span>
+           <img src="id card.jpeg" width="150" height="150" >
+            </article>
+
+            <article class="project">
+            <span class="tag">Vidio konten</span>
+            <img src="konten vidio.jpeg" width="150" height="150" >
+              </article>
+
+            <article class="project">
+            <span class="tag">Dokumentasi kegiatan</span>
+            <img src="pdd.png" width="150" height="150" >
+            </article>
+
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

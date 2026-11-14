@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Saya | Tentang</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: poppins;
+            background: #f4f7fb;
+            color:  #2d6354;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #2d6354;
+            color: white;
+            padding: 28px 8%;
+            text-align: center;
+        }
+
+        nav {
+            background: hwb(38 86% 0%);
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 8px;
+            padding: 12px;
+        }
+
+        nav a {
+            color: #2d6354;
+            text-decoration: none;
+            padding: 9px 14px;
+            border-radius: 6px;
+        }
+
+        nav a:hover,
+        nav a.active {
+            background: #f6f8f7;
+        }
+
+        main {
+            color:  hwb(38 86% 0%);
+            max-width: 900px;
+            margin: 32px auto;
+            padding: 0 20px;
+        }
+
+        .card {
+            background: #2d6354;
+            padding: 28px;
+            border-radius: 14px;
+            box-shadow: 0 5px 18px #f1f1f110;
+            margin-bottom: 20px;
+        }
+
+        .profile {
+            text-align: center;
+        }
+
+        .profile img {
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 5px solid #dce7ff;
+            box-shadow: 0 4px 12px #203d7820;
+        }
+
+        .profile h2 {
+            margin-bottom: 5px;
+            color: #2d6354;
+        }
+
+
+        @media (max-width: 600px) {
+            .card {
+                padding: 20px;
+            }
+
+            .profile img {
+                width: 150px;
+                height: 150px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Tentang Saya</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Beranda</a>
+        <a class="active" href="tentang.html">Tentang</a>
+        <a href="keahlian.html">Keahlian</a>
+        <a href="portofolio.html">Portofolio</a>
+        <a href="kontak.html">Kontak</a>
+    </nav>
+
+    <main>
+        <section class="card">
+            <h2>Laila Allena Fawwaz</h2>
+            <p>Mahasiswa | sistem informasi</p>
+        </section>
+        </section>
+
+        <section class="card">
+            <h2>Perkenalan</h2>
+
+            <p>
+                Nama saya <b>Laila</b>. Saya tinggal di
+                <b>Bandung</b> "Saat ini saya sedang menempuh perkuliahan sambil terus 
+                mengeksplorasi berbagai peluang untuk berkembang. Sebagai seseorang yang antusias 
+                dengan teknologi dan kreativitas, saya senang menggabungkan 
+                kedua hal tersebut dalam sebuah karya.
+
+            Perjalanan kreatif saya bermula dari bangku SMK dengan mengambil jurusan DKV 
+            (fokus pada fotografi dan videografi), yang kemudian saya kembangkan lebih lanjut
+             di kampus melalui keaktifan saya di divisi Publikasi dan Dokumentasi (PDD) 
+             organisasi mahasiswa. Pengalaman ini membentuk saya menjadi pribadi yang teliti 
+             secara visual, solutif, dan siap menghadapi tantangan baru."
+            </p>
+        </section>
+
+        <section class="card">
+            <h2>Data Singkat</h2>
+
+            <p><b>Nama:</b>Laila Allena Fawwaz</p>
+            <p><b>Alamat:</b>Bandung</p>
+            <p><b>Pendidikan:</b>Universitas informatika dan bisnis Indonesia</p>
+            <p><b>Tujuan:</b> Terus belajar dan menghasilkan
+                karya yang bermanfaat serta berinovasi.
+            </p>
+        </section>
+
+    </main>
+
+</body>
+</html>
